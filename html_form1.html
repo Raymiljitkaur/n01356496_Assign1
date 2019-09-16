@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <h1><u>Sports Rental Car Booking</u></h1>
+    <title> Sports Car Rental Bookings</title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css" />
+</head>
+<body>
+    <form method="GET" action="http://sandbox.bittsdevelopment.com/humber/httpdebug/acceptdata.php">
+        
+        <section>
+            <h2>Customer Details:</h2>
+            
+                <label>Can I Know Your Name:</label>
+                <input type="text" id="Customer_name" name="Customer_name" />
+                <label>Your Pick-Up Location:</label>
+                <input type="text" id="Location_tname" name="Location_name" />
+            
+        </section>
+        
+
+
+        <section>
+            <h2>Cars Categories:</h2>
+                <label>What Type Of Car Would You Like?</label>
+               <div>
+                   <input type="radio" id="Car_Type_1" name="Car_Typename" value="Hatchback" /><label for="Car_Type_1">Hatchback</label>
+               </div>
+               <div>
+                   <input type="radio" id="Car_Type_2" name="Car_Typename" value="sedan" /><label for="Car_Type_2">Sedan</label>
+               </div>
+               <div>
+                   <input type="radio" id="Car_Type_3" name="Car_Typename" value="SUV" /><label for="Car_Type_3">SUV</label>
+               </div>
+        </section>
+
+
+        <section>
+            <h2> Color Coices:</h2>
+                <label>What Is Your Preferred Color For Car?</label>
+                <select id="Car_Color" name="Car_Colorname">
+                  <option value="Red">Red</option>
+                  <option value="Black">Black</option>
+                  <option value="White">White</option>
+                  <option value="Blue">Blue</option>
+                  <option value="Silver">Silver</option>
+                </select>
+        </section>
+
+
+        <section>
+            <h2>Brand Choices:</h2>
+                <label> Your Preferred Brands For Cars?</label>
+               <div>
+                  <input type="checkbox" value="Bugatti" id="Car_Brandname_1" name="Car_Brandname_1" />
+                  <label for="Car_Brandname_1">Bugatti</label>
+               </div>
+               <div>
+                  <input type="checkbox" value="Ferrari" id="Car_Brandname_2" name="Car_Brandname_2" />
+                  <label for="Car_Brandname_2">Ferrari</label>
+               </div>
+               <div>
+                  <input type="checkbox" value="mercedes" id="Car_Brandname_3" name="Car_Brandname_3" />
+                  <label for="Car_Brandname_3">mercedes</label>
+                </div>
+               <div>
+                  <input type="checkbox" value="Porsche" id="Car_Brandname_4" name="Car_Brandname_4" />
+                  <label for="Car_Brandname_4">Porsche</label>
+                </div>
+                <div>
+                  <input type="checkbox" value="Audi" id="Car_Brandname_5" name="Car_Brandname_5" />
+                  <label for="Car_Brandname_5">Audi</label>
+                </div>
+               <div>
+                  <input type="checkbox" value="BMW" id="Car_Brandname_6" name="Car_Brandname_6" />
+                  <label for="Car_Brandname_6">BMW</label>
+                </div>
+        </section>
+
+        <section>
+            <input type="SUBMIT" value="SUBMIT" />
+        </section>
+
+    </form>
+</body>
+</html>
