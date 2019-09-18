@@ -40,6 +40,15 @@ namespace n01356496_assign1_sec_A_ {
         protected global::System.Web.UI.WebControls.TextBox aspx_Location_name;
         
         /// <summary>
+        /// aspx_Car_Rentperiod control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList aspx_Car_Rentperiod;
+        
+        /// <summary>
         /// aspx_Car_Typename control.
         /// </summary>
         /// <remarks>
@@ -65,5 +74,14 @@ namespace n01356496_assign1_sec_A_ {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList aspx_Brand_Name;
+        
+        /// <summary>
+        /// aspx_Services_Name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList aspx_Services_Name;
     }
 }

@@ -2,80 +2,125 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <h1><u>Sports Rental Car Booking</u></h1>
-    <title> Sports Car Rental Bookings</title>
+    <title> SPORTS CAR RENTAL BOOKING</title>
     <link rel="stylesheet" type="text/css" href="Content/Site.css" />
 </head>
 <body>
+    <h1><u>SPORTS CAR RENTAL BOOKING</u></h1>
     <form method="GET" action="http://sandbox.bittsdevelopment.com/humber/httpdebug/acceptdata.php">
-        
+
         <section>
             <h2>Customer Details:</h2>
-            
-                <label>Can I Know Your Name:</label>
-                <input type="text" id="Customer_name" name="Customer_name" />
-                <label>Your Pick-Up Location:</label>
-                <input type="text" id="Location_tname" name="Location_name" />
-            
+            <label>Can I Know Your Name:</label>
+            <input type="text" id="Customer_name" name="Customer_name" />
+            <label>Your Pick-Up Location:</label>
+            <input type="text" id="Location_tname" name="Location_name" />
+
         </section>
-        
+        <section>
+            <h2>Select Duration:</h2>
+            <label>For How Long Will You Rent Car?</label>
+            <div>
+                <input type="radio" id="Time_Period_1" name="Car_Rent_Timeperiod" value="1 Day" /><label for="Time_Period_1">1 Day</label>
+            </div>
+            <div>
+                <input type="radio" id="Time_Period_2" name="Car_Rent_Timeperiod" value="2 Days" /><label for="Time_Period_2">2 Days</label>
+            </div>
+            <div>
+                <input type="radio" id="Time_Period_3" name="Car_Rent_Timeperiod" value="3 Days" /><label for="Time_Period_3">3 Days</label>
+            </div>
+            <div>
+                <input type="radio" id="Time_Period_4" name="Car_Rent_Timeperiod" value="4 Days" /><label for="Time_Period_4">4 Days</label>
+            </div>
+            <div>
+                <input type="radio" id="Time_Period_5" name="Car_Rent_Timeperiod" value=" A week" /><label for="Time_Period_5">A week</label>
+            </div>
+        </section>
 
 
         <section>
             <h2>Cars Categories:</h2>
-                <label>What Type Of Car Would You Like?</label>
-               <div>
-                   <input type="radio" id="Car_Type_1" name="Car_Typename" value="Hatchback" /><label for="Car_Type_1">Hatchback</label>
-               </div>
-               <div>
-                   <input type="radio" id="Car_Type_2" name="Car_Typename" value="sedan" /><label for="Car_Type_2">Sedan</label>
-               </div>
-               <div>
-                   <input type="radio" id="Car_Type_3" name="Car_Typename" value="SUV" /><label for="Car_Type_3">SUV</label>
-               </div>
+            <label>What Type Of Car Would You Like?</label>
+            <div>
+                <input type="radio" id="Car_Type_1" name="Car_Typename" value="Hatchback" /><label for="Car_Type_1">Hatchback</label>
+            </div>
+            <div>
+                <input type="radio" id="Car_Type_2" name="Car_Typename" value="sedan" /><label for="Car_Type_2">Sedan</label>
+            </div>
+            <div>
+                <input type="radio" id="Car_Type_3" name="Car_Typename" value="SUV" /><label for="Car_Type_3">SUV</label>
+            </div>
         </section>
 
 
         <section>
             <h2> Color Coices:</h2>
-                <label>What Is Your Preferred Color For Car?</label>
-                <select id="Car_Color" name="Car_Colorname">
-                  <option value="Red">Red</option>
-                  <option value="Black">Black</option>
-                  <option value="White">White</option>
-                  <option value="Blue">Blue</option>
-                  <option value="Silver">Silver</option>
-                </select>
+            <label>What Is Your Preferred Color For Car?</label>
+            <select id="Car_Color" name="Car_Colorname">
+                <option value="Red">Red</option>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+                <option value="Silver">Silver</option>
+            </select>
         </section>
 
 
         <section>
             <h2>Brand Choices:</h2>
-                <label> Your Preferred Brands For Cars?</label>
-               <div>
-                  <input type="checkbox" value="Bugatti" id="Car_Brandname_1" name="Car_Brandname_1" />
-                  <label for="Car_Brandname_1">Bugatti</label>
-               </div>
-               <div>
-                  <input type="checkbox" value="Ferrari" id="Car_Brandname_2" name="Car_Brandname_2" />
-                  <label for="Car_Brandname_2">Ferrari</label>
-               </div>
-               <div>
-                  <input type="checkbox" value="mercedes" id="Car_Brandname_3" name="Car_Brandname_3" />
-                  <label for="Car_Brandname_3">mercedes</label>
-                </div>
-               <div>
-                  <input type="checkbox" value="Porsche" id="Car_Brandname_4" name="Car_Brandname_4" />
-                  <label for="Car_Brandname_4">Porsche</label>
-                </div>
-                <div>
-                  <input type="checkbox" value="Audi" id="Car_Brandname_5" name="Car_Brandname_5" />
-                  <label for="Car_Brandname_5">Audi</label>
-                </div>
-               <div>
-                  <input type="checkbox" value="BMW" id="Car_Brandname_6" name="Car_Brandname_6" />
-                  <label for="Car_Brandname_6">BMW</label>
-                </div>
+            <label> Your Preferred Brands For Cars?</label>
+            <div>
+                <input type="checkbox" value="Bugatti" id="Car_Brandname_1" name="Car_Brandname_1" />
+                <label for="Car_Brandname_1">Bugatti</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Ferrari" id="Car_Brandname_2" name="Car_Brandname_2" />
+                <label for="Car_Brandname_2">Ferrari</label>
+            </div>
+            <div>
+                <input type="checkbox" value="mercedes" id="Car_Brandname_3" name="Car_Brandname_3" />
+                <label for="Car_Brandname_3">mercedes</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Porsche" id="Car_Brandname_4" name="Car_Brandname_4" />
+                <label for="Car_Brandname_4">Porsche</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Audi" id="Car_Brandname_5" name="Car_Brandname_5" />
+                <label for="Car_Brandname_5">Audi</label>
+            </div>
+            <div>
+                <input type="checkbox" value="BMW" id="Car_Brandname_6" name="Car_Brandname_6" />
+                <label for="Car_Brandname_6">BMW</label>
+            </div>
+        </section>
+        <section>
+            <h2>Additional services:</h2>
+            <label> Would You Like To Include Other Services?</label>
+            <div>
+                <input type="checkbox" value="Driver" id="Car_Servicename_1" name="Car_Servicename_1" />
+                <label for="Car_Servicename_1">Driver</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Parking Tickets" id="Car_Servicename_2" name="Car_Servicename_2" />
+                <label for="Car_Servicename_2">Parking Tickets</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Pick-Up" id="Car_Servicename_3" name="Car_Servicename_3" />
+                <label for="Car_Servicename_3">Pick-Up</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Drop-Off" id="Car_Servicename_4" name="Car_Servicename_4" />
+                <label for="Car_Servicename_4">Drop-Off</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Damage Claim" id="Car_Servicename_5" name="Car_Servicename_5" />
+                <label for="Car_Servicename_5">Damage Claim</label>
+            </div>
+            <div>
+                <input type="checkbox" value="GPS Navigation" id="Car_Servicename_6" name="Car_Servicename_6" />
+                <label for="Car_Servicename_6">GPS Navigation</label>
+            </div>
         </section>
 
         <section>
