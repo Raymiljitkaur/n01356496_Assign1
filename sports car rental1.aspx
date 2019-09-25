@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="n01356496_assign1_sec_A_.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sports car rental1.aspx.cs" Inherits="n01356496_assign1_sec_A_.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -20,23 +20,23 @@
             </section>
             <section>
                 <h2>Select Duration:</h2>
-                   <label>For How Long Will You Rent Car?</label>
-                       <asp:RadioButtonList runat="server" ID="aspx_Car_Rentperiod">
-                            <asp:ListItem Text="1 Day" Value="1 Day"></asp:ListItem>
-                            <asp:ListItem Text="2 Days" Value="2 Days"></asp:ListItem>
-                            <asp:ListItem Text="3 Days " Value="3 Days"></asp:ListItem>
-                            <asp:ListItem Text="4 Days" Value="4 Days"></asp:ListItem>
-                            <asp:ListItem Text="A week " Value="A week"></asp:ListItem>
-                       </asp:RadioButtonList>
+                <label>For How Long Will You Rent Car?</label>
+                <asp:RadioButtonList runat="server" ID="aspx_Car_Rentperiod">
+                    <asp:ListItem Text="1 Day" Value="1 Day"></asp:ListItem>
+                    <asp:ListItem Text="2 Days" Value="2 Days"></asp:ListItem>
+                    <asp:ListItem Text="3 Days " Value="3 Days"></asp:ListItem>
+                    <asp:ListItem Text="4 Days" Value="4 Days"></asp:ListItem>
+                    <asp:ListItem Text="A week " Value="A week"></asp:ListItem>
+                </asp:RadioButtonList>
             </section>
             <section>
                 <h2>Cars Categories:</h2>
                    <label>What Type Of Car Would You Like?</label>
-                       <asp:RadioButtonList runat="server" ID="aspx_Car_Typename">
-                            <asp:ListItem Text="Hatchback" Value="Hatchback"></asp:ListItem>
-                            <asp:ListItem Text="Sedan" Value="Sedan"></asp:ListItem>
-                            <asp:ListItem Text="SUV " Value="SUV"></asp:ListItem>
-                       </asp:RadioButtonList>
+                    <asp:RadioButtonList runat="server" ID="aspx_Car_Typename">
+                        <asp:ListItem Text="Hatchback" Value="Hatchback"></asp:ListItem>
+                        <asp:ListItem Text="Sedan" Value="Sedan"></asp:ListItem>
+                        <asp:ListItem Text="SUV " Value="SUV"></asp:ListItem>
+                    </asp:RadioButtonList>
             </section>
             <section>
                 <h2>Color Choices:</h2>
